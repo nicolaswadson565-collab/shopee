@@ -1,6 +1,7 @@
 
 import React, { useState } from 'react';
 import { Search, ShoppingCart, MessageSquare, Plus, Minus, ChevronLeft, Trash2, Store, ChevronRight, Ticket, Truck, MessageCircle } from 'lucide-react';
+import { Analytics } from "@vercel/analytics/react";
 import { CART_DATA, PRODUCT_DATA } from './constants';
 import Header from './components/Header';
 import ProductGallery from './components/ProductGallery';
@@ -115,6 +116,7 @@ const App: React.FC = () => {
             Comprar Agora
           </button>
         </div>
+        <Analytics />
       </div>
     );
   }
@@ -251,6 +253,7 @@ const App: React.FC = () => {
           </div>
         </div>
       </footer>
+      <Analytics />
     </div>
   );
 };
