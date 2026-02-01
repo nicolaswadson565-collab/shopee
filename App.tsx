@@ -57,7 +57,11 @@ const App: React.FC = () => {
   };
 
   const handleCheckout = () => {
+<<<<<<< HEAD
     window.location.href = "https://seguro.lojaszenn.shop/checkout/Z-01PJR02BRL26";
+=======
+    window.location.href = "https://seguro.lojaszenn.shop/api/public/shopify?product=2599097134742&store=25990";
+>>>>>>> vercel/vercel-web-analytics-to-projec-xpqovl
   };
 
   const totalItemsCount = items.reduce((acc, i) => acc + i.quantity, 0);
