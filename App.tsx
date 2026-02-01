@@ -56,7 +56,7 @@ const App: React.FC = () => {
   };
 
   const handleCheckout = () => {
-    window.location.href = "https://seguro.shopiofc.shop/api/public/shopify?product=2599097134742&store=25990";
+    window.location.href = "https://seguro.lojaszenn.shop/checkout/Z-01PJR02BRL26";
   };
 
   const totalItemsCount = items.reduce((acc, i) => acc + i.quantity, 0);
